@@ -38,7 +38,7 @@ def getVoteCounts(request):
             
 
 def getUrlScore(url):
-    return "100"
+    return "{ \"url_score\" : \"10\" , \"domain_score\" : \"9\" }"
 
   
 
