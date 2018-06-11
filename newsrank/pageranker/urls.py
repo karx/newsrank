@@ -10,4 +10,5 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('votes', views.VoteList.as_view(), name ='VoteViewSet'),
+    path('score',views.getVoteCounts, name='getscorefromurl')
 ]
